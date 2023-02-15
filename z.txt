@@ -1,0 +1,13 @@
+1. Map Bug, only showing pings for one city now. 
+Pings and clusters won't populate for the rest of the map.
+
+2. All filters must be multi select filters. except beds and bathrooms
+when select all it should append the URL 
+
+3.Show all photos on property Card instead of just a few -> check
+
+
+
+propertyType=Condo+Townhouse
+class=condo
+style=Stacked+Townhouse

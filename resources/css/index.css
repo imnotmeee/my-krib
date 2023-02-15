@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.listing_container {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+}
+
+.listing_container::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+}
+.leaflet-div-icon {
+    background: none !important;
+    border: none !important;
+}
+.cluster-marker {
+    color: #fff;
+    background: #2abdcd;
+    border-radius: 50%;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    transition: 200ms ease;
+    border: 7px solid rgba(135, 206, 235, 0.9);
+}
+.cluster-marker:hover {
+    transform: scale(1.15);
+}
+.custom-icon,
+.show-icon {
+    position: absolute;
+    padding: 8px 16px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    color: #ffffff;
+    transition: all 2s ease-in-out;
+}
+.custom-icon {
+    background-color: #2787fe;
+}
+.show-icon {
+    background-color: orange;
+}
+.my-popup {
+    padding: 0;
+    margin: 0;
+}
