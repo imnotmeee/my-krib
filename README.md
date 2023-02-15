@@ -8,7 +8,7 @@ To install this project, follow these steps:
 
 1. Clone the repository:
 
--   git clone https://github.com/johnkeru/react-laravel-boiler-plate.git
+-   git clone https://github.com/imnotmeee/my-krib.git
 
 2. Go to the working directory:
 
